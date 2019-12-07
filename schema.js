@@ -58,8 +58,5 @@ type Mutation {
   deleteUser(input: DeleteUserInput!): Int!
   createUserPost(creatorPostId: Int!, post: String!): Post!
   createUserComment(postId: Int!, creatorCommentId: Int!, comment: String!): Comment!
-  register(username: String!, email: String!, password: String!): User!
-  login(username: String!): User!
-
 }
 `;

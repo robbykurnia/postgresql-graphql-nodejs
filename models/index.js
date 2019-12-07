@@ -4,9 +4,6 @@ const sequelize = new Sequelize("graphql_db", "postgres", "postgres", {
   dialect: "postgres"
 });
 
-// const Op = Sequelize.Op;
-// console.log(Op);
-
 // Table
 const db = {
   User: sequelize.import("./user"),
