@@ -1,6 +1,6 @@
 import Sequelize from "sequelize";
 
-const sequelize = new Sequelize("graphql_db", "postgres", "postgres", {
+const sequelize = new Sequelize("my_graphql_db", "my_user", "my_password", {
   dialect: "postgres"
 });
 
